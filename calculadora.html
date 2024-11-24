@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calculadora.css">
+    <script type="text/javascript" src="meujavascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+        <p>Nesta página é possível realizar operações básicas de matemática.</p>
+        <label for="iValor1">Valor 1:</label><br>
+        <input id="iValor1" type="text"><br>
+        <label for="iValor2">Valor 2:</label><br>
+        <input id="iValor2" type="text"><br>
+        <div>
+            <input type="radio" name="calc" id="soma" value="soma">
+            <label for="soma">Soma</label>
+            <input type="radio" name="calc" id="subtracao" value="subtracao">
+            <label for="subtracao">Subtração</label>
+            <input type="radio" name="calc" id="multiplicacao" value="multiplicacao">
+            <label for="multiplicacao">Multiplicação</label>
+            <input type="radio" name="calc" id="divisao" value="divisao">
+            <label for="divisao">Divisão</label>
+        </div>
+        <button onclick="calculadora()">Calcular</button>
+        <h3>Obrigado, volte sempre!</h3>
+    </div>
+</body>
+</html>
